@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap');
+
+*{
+
+    font-family: "Podkova", sans-serif;
+
+}
+
+.navbar{
+    font-family: "Podkova", sans-serif;
+    background-color: #27391C ;
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.link-active{
+    color: #F7F7F7 !important;
+}
+.nav-link {
+    color: white  !important;
+    font-weight: 500 ;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: unset;
+    font-weight: 800 !important ;
+}
+
+.navbar-brand{
+    color: unset;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Ubah warna ikon toggle menjadi putih */
+  }
+
+.hero-section{
+    width: 100%;
+    height: 90vh;
+}
+.hero-section .text-judul{
+    font-family: "Podkova", sans-serif;
+    color: white;
+
+
+}
+
+.hero-section .text-berjalan{
+    color: white;
+}
+
+.hero-section .text-desc{
+    color: white;
+}
+
+.custom-card {
+    background-color: #18230F !important; /* Warna biru muda */
+    color: #0d47a1; /* Warna teks biru tua */
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Bayangan lebih tebal */
+  }
+  
+
+  .card-title{
+    color: white !important;
+    font-size: 35px;
+
+  }
+
+  .card-text{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+  .konten-materi{
+    width: 100%;
+    padding-bottom: 50px;
+    height: 70vh;
+    color: #000000;
+  }
+
+  .custom-btn {
+    background-color: #ffffff; /* Warna background putih */
+    color: #000000; /* Warna teks hitam */
+    border: none; /* Hilangkan garis tepi */
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efek hover */
+  .custom-btn:hover {
+    background-color: #99BC85; /* Warna hijau terang */
+    color: #000000; /* Tetap warna teks hitam */
+  }
+
+.About-konten{
+    width: 100%;
+    height: 70vh;
+    color: #ffffff;
+    background-color: #18230F ;
+    padding-top: 50px;
+}
+  
+.text-tent{
+    font-size: 27px;
+}
+
+.permutasi{
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: #18230F;
+}
+
+.accordion {
+  padding-bottom: 2rem; /* Jarak di bawah accordion */
+}
+
+.accordion-item {
+  background-color: #27391C !important; /* Warna hijau default */
+  border: none;
+}
+
+.accordion-button {
+  background-color: #27391C !important;
+  color: #ffffff !important;
+}
+
+/* Saat accordion dibuka */
+.accordion-button:not(.collapsed) {
+  background-color: ; /* Warna hijau tua saat dibuka */
+  color: #ffffff !important;
+}
+
+.accordion-body {
+  background-color: #18230F !important; /* Warna hijau tua di bagian isi saat dibuka */
+  color: #ffffff !important;
+}
+
+/* Hilangkan efek shadow saat fokus */
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+
+/* Warna icon panah */
+.accordion-button::after {
+  filter: invert(1); /* Mengubah warna icon menjadi putih */
+}
